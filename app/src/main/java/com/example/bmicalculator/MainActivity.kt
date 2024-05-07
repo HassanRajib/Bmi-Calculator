@@ -40,22 +40,22 @@ class MainActivity : AppCompatActivity() {
         when{
             bmiDigi<18.50->{
                 result = "Underweight"
-                color = R.color.black
+                color = R.color.Underweight
                 range = "(Underweight range is less then 18.50)"
             }
             bmiDigi in 18.50..24.99->{
                 result = "Healthy"
-                color = R.color.white
+                color = R.color.Healthy
                 range = "(Healthy range is 18.50 - 24.99)"
             }
             bmiDigi in 25.00..29.99->{
                 result = "Overweight"
-                color = R.color.black
+                color = R.color.Overweight
                 range = "(Overweight range is 25.00 - 29.99)"
             }
             bmiDigi>29.99->{
                 result = "Obese"
-                color = R.color.white
+                color = R.color.Obese
                 range ="(Obese range is greater then 29.99)"
             }
         }

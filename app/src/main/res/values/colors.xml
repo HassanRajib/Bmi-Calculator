@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="Underweight">#FE9E00</color>
+    <color name="Healthy">#009687</color>
+    <color name="Overweight">#00ABC1</color>
+    <color name="Obese">#D22F2E</color>
+
 </resources>
